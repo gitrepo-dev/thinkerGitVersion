@@ -17,10 +17,10 @@ const port = process.env.PORT || 5000
 // connect with the mysql database
 createConnection({
     type: "mysql",
-    host: "us-cdbr-east-04.cleardb.com",
-    database: "heroku_ed91beaa1c4ac5f",
-    username: "b5f081799072c7",
-    password: "d0dccece",
+    host: "",
+    database: "",
+    username: "",
+    password: "",
     logging: true,
     synchronize: true,
     entities: [Users, Posts]
